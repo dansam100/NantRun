@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NantRun", "NantRun\NantRun.csproj", "{CB8FBE4A-A7FE-4453-A6F3-10EB02F99D3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4669380-290D-4175-B455-B776766A4673} = {E4669380-290D-4175-B455-B776766A4673}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Style Enforcer", "Code Style Enforcer", "{0D837072-B3DC-4255-829A-27C65EC04D11}"
+	ProjectSection(SolutionItems) = preProject
+		Code Style Enforcer\ImplementationRules.xml = Code Style Enforcer\ImplementationRules.xml
+		Code Style Enforcer\NameRules.xml = Code Style Enforcer\NameRules.xml
+		Code Style Enforcer\VisibilityRules.xml = Code Style Enforcer\VisibilityRules.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunnerConsole", "..\RunnerConsole\RunnerConsole\RunnerConsole.csproj", "{E4669380-290D-4175-B455-B776766A4673}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB8FBE4A-A7FE-4453-A6F3-10EB02F99D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8FBE4A-A7FE-4453-A6F3-10EB02F99D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8FBE4A-A7FE-4453-A6F3-10EB02F99D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8FBE4A-A7FE-4453-A6F3-10EB02F99D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4669380-290D-4175-B455-B776766A4673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4669380-290D-4175-B455-B776766A4673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4669380-290D-4175-B455-B776766A4673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4669380-290D-4175-B455-B776766A4673}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		CodeStyleEnforcer_Active = -1
+		CodeStyleEnforcer_RulesLocation = 1
+	EndGlobalSection
+EndGlobal

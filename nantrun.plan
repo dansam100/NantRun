@@ -1,0 +1,8 @@
+using:
+    tabviews;
+		make: pages;
+        where: main page is nantrun page;
+            such that: this page cannot be closed;
+        and: other pages are console pages with output;
+            such that:
+                consolePages: can be closed;
